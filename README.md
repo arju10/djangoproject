@@ -39,6 +39,11 @@ python manage.py runserver
 ![alt text](image-1.png) </br>
 ![alt text](image.png)
 
+### Step 7:  Create a app named products
+```bash
+python manage.py startapp products
+```
 ### Resources:
 1.  https://docs.astral.sh/uv/getting-started/installation/#next-steps
 2. https://www.djangoproject.com/start/
+3. https://jinja.palletsprojects.com/en/stable/
