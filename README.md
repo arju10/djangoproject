@@ -39,11 +39,23 @@ python manage.py runserver
 ![alt text](resources/image-1.png) </br>
 ![alt text](resources/image.png)
 
-### Step 7:  Create a app named products
+### Step 7:  Create an app named products
 ```bash
 python manage.py startapp products
 ```
+
+### Step 8: Add products app in djangoproject settings
+![alt text](resources/image-6.png)
+
+## Add Tailwind 
+```bash
+uv pip install django-tailwind
+uv pip install 'django-tailwind[reload]'
+```
+
+
 ### Resources:
 1.  https://docs.astral.sh/uv/getting-started/installation/#next-steps
 2. https://www.djangoproject.com/start/
 3. https://jinja.palletsprojects.com/en/stable/
+4. https://pypi.org/project/django-tailwind/

@@ -1,5 +1,5 @@
 #!/bin/sh
-'''exec' "/media/arju/New Volume/File-8/All Projects/New_Django_Projects/venv/bin/python3" "$0" "$@"
+'''exec' "/media/arju/New Volume/File-8/All Projects/New_Django_Projects/venv/bin/python" "$0" "$@"
 ' '''
 # -*- coding: utf-8 -*-
 import re
