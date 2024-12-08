@@ -37,3 +37,12 @@ class ProductReview(models.Model):
     def __str__(self):
         return f'{self.user.username}  review for {self.product.name}'
     
+# Many to Many
+class Store(models.Model):
+    name = models.CharField(max_length=100)
+    location = models.CharField(max_length=100)
+    product_varieties = models.ManyToManyField(ProductsVariety, related_name='store')
+
+    def __str__(self):
+        return self.name
+    
