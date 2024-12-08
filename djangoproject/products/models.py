@@ -46,3 +46,12 @@ class Store(models.Model):
     def __str__(self):
         return self.name
     
+# One to One
+class ProductCertificate(models.Model):
+    product = models.OneToOneField(ProductsVariety, on_delete=models.CASCADE, related_name='certificate')
+    certificate_number = models.CharField(max_length=100)
+    issued_date = models.DateTimeField(default=timezone.now)
+    valid_till = models.DateTimeField()
+
+    def __str__(self):
+        return f'Certificate for {self.name.product}'
