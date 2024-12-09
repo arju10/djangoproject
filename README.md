@@ -59,3 +59,4 @@ uv pip install 'django-tailwind[reload]'
 2. https://www.djangoproject.com/start/
 3. https://jinja.palletsprojects.com/en/stable/
 4. https://pypi.org/project/django-tailwind/
+5. https://docs.djangoproject.com/en/5.1/ref/forms/
